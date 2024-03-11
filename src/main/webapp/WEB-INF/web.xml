@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>Reg_reg</display-name>
+    <servlet-name>Reg_reg</servlet-name>
+    <servlet-class>servlet.Reg_reg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Reg_reg</servlet-name>
+    <url-pattern>/Reg_reg</url-pattern>
+  </servlet-mapping>
+  <display-name>Online_portal</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Reg_serv</display-name>
+    <servlet-name>Reg_serv</servlet-name>
+    <servlet-class>servlet.Reg_serv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Reg_serv</servlet-name>
+    <url-pattern>/Reg_serv</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Log_serv</display-name>
+    <servlet-name>Log_serv</servlet-name>
+    <servlet-class>servlet.Log_serv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Log_serv</servlet-name>
+    <url-pattern>/Log_serv</url-pattern>
+  </servlet-mapping>
+</web-app>
